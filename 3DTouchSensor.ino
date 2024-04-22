@@ -5,7 +5,7 @@
 // Define pins for Multiplexer 1
 int Mux1S0 = 5;
 int Mux1S1 = 6;
-int Mux1S2 = 7;w
+int Mux1S2 = 7;
 int pin_In_Mux1 = A1;
 int Mux1_State[8] = {0};
 int Mux1_Ref[8] = {0};
