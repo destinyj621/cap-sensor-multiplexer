@@ -5,11 +5,17 @@ This Arduino sketch implements a system for capacitive touch sensing using multi
 **Hardware Requirements**
 
 Arduino board (e.g., Arduino Uno)
+
 DFPlayer Mini MP3 module
+
 Capacitive touch sensors
+
 Multiplexers (e.g., CD74HC4067)
+
 Resistors (for capacitive sensing)
+
 Jump wires
+
 Breadboard or custom PCB
 
 **Libraries Used**
