@@ -4,25 +4,27 @@ This Arduino sketch implements a system for capacitive touch sensing using multi
 
 **Hardware Requirements**
 
-Arduino board (e.g., Arduino Uno)
-
-DFPlayer Mini MP3 module
-
-Capacitive touch sensors
-
-Multiplexers (e.g., CD74HC4067)
-
-Resistors (for capacitive sensing)
-
-Jump wires
-
-Breadboard or custom PCB
+  Arduino board (e.g., Arduino Uno)
+  
+  DFPlayer Mini MP3 module
+  
+  Capacitive touch sensors
+  
+  Multiplexers (e.g., CD74HC4067)
+  
+  Resistors (for capacitive sensing)
+  
+  Jump wires
+  
+  Breadboard or custom PCB
 
 **Libraries Used**
 
-ADCTouch: For capacitive touch sensing.
-SoftwareSerial: For serial communication with the DFPlayer Mini MP3 module.
-DFPlayerMini_Fast: A library for controlling the DFPlayer Mini MP3 module.
+  ADCTouch: For capacitive touch sensing.
+  
+  SoftwareSerial: For serial communication with the DFPlayer Mini MP3 module.
+  
+  DFPlayerMini_Fast: A library for controlling the DFPlayer Mini MP3 module.
 
 **Setup**
 
@@ -30,7 +32,8 @@ Connect the capacitive touch sensors to the analog pins of the Arduino through m
 Connect the DFPlayer Mini MP3 module to the Arduino using SoftwareSerial (RX and TX pins).
 Ensure the DFPlayer Mini MP3 module is powered and properly configured.
 Upload the provided Arduino sketch to the Arduino board.
-Configuration
+
+**Configuration**
 
 Adjust the th variable to set the threshold for triggering audio playback based on capacitive touch sensor readings.
 Modify the volume variable to set the initial volume level for audio playback.
