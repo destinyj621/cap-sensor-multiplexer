@@ -33,18 +33,18 @@ Connect the DFPlayer Mini MP3 module to the Arduino using SoftwareSerial (RX and
 Ensure the DFPlayer Mini MP3 module is powered and properly configured.
 Upload the provided Arduino sketch to the Arduino board.
 
-##Configuration
+## Configuration
 
 Adjust the th variable to set the threshold for triggering audio playback based on capacitive touch sensor readings.
 Modify the volume variable to set the initial volume level for audio playback.
 
-##Usage
+## Usage
 
 Power on the Arduino board.
 The system will start sensing capacitance from the touch sensors.
 When the capacitance exceeds the threshold (th), the corresponding audio track will be played through the DFPlayer Mini MP3 module.
 
-##Additional Notes
+## Additional Notes
 
 Ensure the proper functioning of the hardware components and connections before deploying the system.
 Debugging information is printed to the serial monitor (baud rate: 9600). Adjust the frequency or disable debug outputs as needed for performance optimization.
